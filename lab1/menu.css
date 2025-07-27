@@ -1,0 +1,37 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f8f5f2;
+  margin: 40px;
+}
+h1 {
+  text-align: center;
+  color: #6b4f28;
+}
+table {
+  width: 70%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+th, td {
+  padding: 14px 18px;
+  text-align: left;
+}
+th {
+  background: #d2b48c;
+  color: #fff;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+}
+tr:nth-child(even) {
+  background: #f3e9dc;
+}
+tr:hover {
+  background: #ffe4b5;
+}
+td.price {
+  text-align: right;
+  font-weight: bold;
+  color: #6b4f28;
+}
